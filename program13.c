@@ -1,7 +1,9 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
     int n,rem,rev=0;
+    clrscr();
     scanf("%d",&n);
     if(n>9)
     {
@@ -70,5 +72,6 @@ int main()
                break;
     }
     }
+    getch();
     return 0;
 }
